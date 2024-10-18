@@ -7,3 +7,4 @@
 # 비주얼 스튜디오 빌드 캐시 무시
 GitDemo/obj/
 GitDemo/bin/
+/.vs/GitDemo/v17/.futdcache.v2
