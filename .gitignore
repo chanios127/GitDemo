@@ -1,3 +1,14 @@
 ﻿################################################################################
 # 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
 ################################################################################
+/.vs
+/GitDemo/obj/project.nuget.cache
+/GitDemo/obj/project.assets.json
+/GitDemo/obj/GitDemo.vbproj.nuget.g.props
+/GitDemo/obj/GitDemo.vbproj.nuget.dgspec.json
+/.vs/VSWorkspaceState.json
+/.vs/GitDemo/v17/DocumentLayout.json
+/.vs/GitDemo/v17/DocumentLayout.backup.json
+/.vs/GitDemo/v17/.wsuo
+/.vs/GitDemo/v17/.suo
+/GitDemo/obj/Debug/net8.0-windows/GitDemo.assets.cache
