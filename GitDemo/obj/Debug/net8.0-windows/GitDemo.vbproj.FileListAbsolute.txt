@@ -1,5 +1,0 @@
-C:\Users\chani\source\repos\GitDemo\GitDemo\obj\Debug\net8.0-windows\GitDemo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\chani\source\repos\GitDemo\GitDemo\obj\Debug\net8.0-windows\GitDemo.AssemblyInfoInputs.cache
-C:\Users\chani\source\repos\GitDemo\GitDemo\obj\Debug\net8.0-windows\GitDemo.AssemblyInfo.vb
-C:\Users\chani\source\repos\GitDemo\GitDemo\obj\Debug\net8.0-windows\GitDemo.vbproj.CoreCompileInputs.cache
-C:\Users\chani\source\repos\GitDemo\GitDemo\obj\Debug\net8.0-windows\GitDemo.sourcelink.json
