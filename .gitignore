@@ -3,8 +3,7 @@
 ################################################################################
 # 비주얼 스튜디오 프로젝트 캐시 무시 
 .vs/
+/.vs/
 # 비주얼 스튜디오 빌드 캐시 무시
 GitDemo/obj/
 GitDemo/bin/
-/.vs/GitDemo/v17/DocumentLayout.backup.json
-/.vs/GitDemo/v17/DocumentLayout.json
