@@ -77,4 +77,6 @@ Public Class Form1
             resultLabel.Text = "Hello " & userName & ", you are a senior."
         End If
     End Sub
+
+    Private 
 End Class
