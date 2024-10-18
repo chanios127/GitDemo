@@ -9,12 +9,9 @@ Imports System.Reflection.Emit
 '######################################################################################
 Public Class Form1
     ' 폼에 추가할 컨트롤들 선언
-    Private nameLabel As New Label()
-    Private ageLabel As New Label()
     Private nameTextBox As New TextBox()
     Private ageTextBox As New TextBox()
     Private submitButton As New Button()
-    Private resultLabel As New Label()
 
     ' 폼 초기화 메서드
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load

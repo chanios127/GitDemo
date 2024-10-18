@@ -8,6 +8,14 @@
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\GitDemo\GitDemoWepSite</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>D:\GitDemo\GitDemoWepSite</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />

@@ -22,9 +22,56 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form1"
+        nameLabel = New Label()
+        ageLabel = New Label()
+        resultLabel = New Label()
+        SuspendLayout()
+        ' 
+        ' nameLabel
+        ' 
+        nameLabel.AutoSize = True
+        nameLabel.Location = New Point(45, 54)
+        nameLabel.Name = "nameLabel"
+        nameLabel.Size = New Size(41, 21)
+        nameLabel.TabIndex = 0
+        nameLabel.Text = "Label1"
+        nameLabel.UseCompatibleTextRendering = True
+        ' 
+        ' ageLabel
+        ' 
+        ageLabel.AutoSize = True
+        ageLabel.Location = New Point(105, 54)
+        ageLabel.Name = "ageLabel"
+        ageLabel.Size = New Size(41, 21)
+        ageLabel.TabIndex = 1
+        ageLabel.Text = "Label1"
+        ageLabel.UseCompatibleTextRendering = True
+        ' 
+        ' resultLabel
+        ' 
+        resultLabel.AutoSize = True
+        resultLabel.Location = New Point(163, 54)
+        resultLabel.Name = "resultLabel"
+        resultLabel.Size = New Size(41, 21)
+        resultLabel.TabIndex = 2
+        resultLabel.Text = "Label1"
+        resultLabel.UseCompatibleTextRendering = True
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(resultLabel)
+        Controls.Add(ageLabel)
+        Controls.Add(nameLabel)
+        Name = "Form1"
+        Text = "Form1"
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
+
+    Friend WithEvents nameLabel As Label
+    Friend WithEvents ageLabel As Label
+    Friend WithEvents resultLabel As Label
 End Class
