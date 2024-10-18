@@ -27,6 +27,4 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Text = "Form1"
     End Sub
-
-ㄴㄴ
 End Class
