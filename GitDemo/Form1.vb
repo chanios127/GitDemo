@@ -98,4 +98,12 @@ Public Class Form1
             MsgBox("커밋 테스트용 서브루틴")
         Next
     End Sub
+
+    Public Sub Test3()
+        Dim S As String = "git 다른 디렉토리에 리로드 후 신규추가. "
+        'git 추가
+        For i As Integer = 0 To 5
+            MsgBox("커밋 테스트용 서브루틴")
+        Next
+    End Sub
 End Class
