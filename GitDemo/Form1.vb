@@ -85,4 +85,12 @@ Public Class Form1
             MsgBox("커밋 테스트용 서브루틴")
         Next
     End Sub
+
+    Public Sub ConflicTest()
+        Dim S As String = "커밋 과정중 충돌상황 가정 "
+        '커밋 테스트 확인용 주석
+        For i As Integer = 0 To 5
+            MsgBox("커밋 테스트용 서브루틴")
+        Next
+    End Sub
 End Class
